@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 2vh;
+}
