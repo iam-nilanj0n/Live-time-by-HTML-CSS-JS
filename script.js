@@ -1,6 +1,6 @@
 let Ptime = document.createElement('p');
 let Pdate = document.createElement('p')
-const body = document.querySelector('body');
+const timeBox = document.querySelector('.liveTime-Box');
 
 
 let weekDays = {
@@ -54,6 +54,6 @@ const timer = setInterval(()=>{
     let d = `Date: ${months[month]} ${date.getDate()}  ${date.getFullYear()} ${weekDays[dayNo]}`
     Ptime.textContent = t
     Pdate.textContent = d
-    body.appendChild(Ptime)
-    body.appendChild(Pdate)
+    timeBox.appendChild(Ptime)
+    timeBox.appendChild(Pdate)
 },1000)
